@@ -2,7 +2,6 @@ describe('check element get concept', ()=>{
 
 
     it('element get testing', ()=>{
-
         cy.visit('https://www.freshworks.com/')
         cy.contains('Platform').click()
 
